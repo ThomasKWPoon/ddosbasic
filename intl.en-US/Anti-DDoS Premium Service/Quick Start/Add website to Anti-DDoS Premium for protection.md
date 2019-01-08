@@ -2,11 +2,13 @@
 
 After purchasing an Anti-DDoS Premium instance, you can add your website domain to the instance for DDoS protection.
 
+**Note:** If you want to add a non-website business, such as client game, mobile game or APP to Anti-DDoS Premium, see [Add non-website business to Anti-DDoS Premium for protection](reseller.en-US/Anti-DDoS Premium Service/Quick Start/Add a non-website business to Anti-DDoS Premium for protection.md#).
+
 1.  Log on to the [Anti-DDoS Premium Service console](https://yundun.console.aliyun.com/?p=ddosdip). 
 2.  Go to **Provisioning** \> **Website** page, and click **Add Website.**  
 3.  On the Website configuration page, enter information for the website to be protected, and then click **Add Website**. 
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/154692905035231_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/154693655035231_en-US.png)
 
     |Parameter|Description|Note|
     |---------|-----------|----|
@@ -37,7 +39,7 @@ After purchasing an Anti-DDoS Premium instance, you can add your website domain 
 
         The settings pages of the different DNS service providers are different. The following pictures are for reference only.
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/154692905035255_en-US.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/154693655035255_en-US.png)
 
     3.  After the DNS configuration is effective, all traffic to the website goes through the Anti-DDoS Premium instance for DDoS protection. 
 
