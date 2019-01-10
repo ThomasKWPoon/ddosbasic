@@ -18,8 +18,6 @@ DNS DDoS attacks indicate DNS Request flood, DNS Response flood, valid and inval
 
 Connection DDoS attacks indicate TCP slow connection attacks, connect exhaustion attacks, Loic, Hoic, Slowloris, Pyloris, and Xoic among other slow attacks.
 
-Slowloris攻击利用HTTP协议的特性来达到攻击目的。 HTTP请求以`\r\n\r\n`标识Headers的结束，如果Web服务端只收到`\r\n`，则认为HTTP Headers部分没有结束，将保留该连接并等待后续的请求内容。
-
 ## Web application DDoS attacks { .section}
 
 Web application-layer attacks indicate HTTP Get flood, HTTP Post flood, and HTTP flood attacks.
