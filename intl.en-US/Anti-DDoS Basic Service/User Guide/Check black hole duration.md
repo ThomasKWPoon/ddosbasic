@@ -16,7 +16,7 @@ You can log on to the Anti-DDoS Basic console to view the specific black hole th
 
 1.  Log on to the [Anti-DDoS Basic console](https://partners-intl.console.aliyun.com/#/ddosnext). 
 2.  On the **Anti-DDoS Basic** \> **Instances** page, make sure that the **Why is the IP address abnormal?** switch in the upper-right corner is turned on. 
-3.  Hover your mouse over the **Blackholing** icon to check the current black hole duration.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79454/154503690534165_en-US.png)
+3.  Hover your mouse over the **Blackholing** icon to check the current black hole duration.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79454/154710858234165_en-US.png)
 
  
 
