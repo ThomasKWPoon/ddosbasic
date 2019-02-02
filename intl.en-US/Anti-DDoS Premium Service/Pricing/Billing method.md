@@ -14,13 +14,13 @@ In most cases, the chances of being attacked decrease significantly after you ha
 
 -   **Insurance Plan** 
 
-    Each month, Anti-DDoS Premium Insurance Plan offers two free advanced mitigation sessions by default, featuring unlimited mitigation capabilities. This protects your businesses against DDoS attacks with full capacity within 24 hours after an attack has been detected, and consumes one advanced mitigation session. The number of advanced mitigation sessions is reset to two at the beginning of every month during the service period.
+    Each month, Anti-DDoS Premium Insurance Plan offers two free advanced mitigation by default, featuring unlimited mitigation capabilities. This protects your businesses against DDoS attacks with full capacity within 24 hours after an attack has been detected, and consumes one advanced mitigation. The number of advanced mitigation is reset to two at the beginning of every month during the service period.
 
-    **Note:** To purchase more advanced mitigation sessions, see [Global advanced mitigation](reseller.en-US/Anti-DDoS Premium Service/Pricing/Global advanced DDoS mitigation sessions.md#).
+    **Note:** To purchase more advanced mitigation, see [Global advanced mitigation](reseller.en-US/Anti-DDoS Premium Service/Pricing/Global advanced mitigation.md#).
 
-    For example, a protected IP suffers DDoS attacks at 11:20:00 \(UTC+8\), September 12, and an advanced mitigation is triggered. Within 24 hours, Anti-DDoS Premium provides unlimited mitigation capacities for this IP. The protected IP suffers another DDoS attack at 18:50:00 \(UTC+8\), September 13, and an advanced mitigation is triggered again. 24 hours later, the advanced mitigation stops and the two advanced mitigation sessions of the Anti-DDoS Premium Insurance Plan instance in September are exhausted. The advanced mitigation sessions are automatically reset to two at the beginning of the following month, October 1.
+    For example, a protected IP suffers DDoS attacks at 11:20:00 \(UTC+8\), September 12, and an advanced mitigation is triggered. Within 24 hours, Anti-DDoS Premium provides unlimited mitigation capacities for this IP. The protected IP suffers another DDoS attack at 18:50:00 \(UTC+8\), September 13, and an advanced mitigation is triggered again. 24 hours later, the advanced mitigation stops and the two advanced mitigation of the Anti-DDoS Premium Insurance Plan instance in September are exhausted. The advanced mitigation are automatically reset to two at the beginning of the following month, October 1.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/154907415135184_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/154910093935184_en-US.png)
 
     Insurance Plan is a basic solution of Anti-DDoS Premium and applies to users who are less vulnerable to attacks.
 
@@ -28,7 +28,7 @@ In most cases, the chances of being attacked decrease significantly after you ha
 
 -   **Unlimited Plan** 
 
-    Anti-DDoS Premium Unlimited Plan provides unlimited advanced mitigation capabilities for your business. After you purchase the Unlimited Plan instances, Anti-DDoS Premium provides unlimited mitigation sessions to protect your business against all DDoS attacks.
+    Anti-DDoS Premium Unlimited Plan provides unlimited advanced mitigation capabilities for your business. After you purchase the Unlimited Plan instances, Anti-DDoS Premium provides unlimited mitigation to protect your business against all DDoS attacks.
 
 
 ## Pricing details of Anti-DDoS Premium { .section}
@@ -37,15 +37,15 @@ The pricing details of Anti-DDoS Premium instances are shown in the following ta
 
 |Plan|Business bandwidth|Advanced mitigation|Price \(USD/month\)|
 |----|------------------|-------------------|-------------------|
-|Insurance|100 Mbps|2 sessions/month|2,630|
+|Insurance|100 Mbps|2/month|2,630|
 |Unlimited|Unlimited|11,560|
-|Insurance|150 Mbps|2 sessions/month|3,420|
+|Insurance|150 Mbps|2/month|3,420|
 |Unlimited|Unlimited|12,610|
-|Insurance|200 Mbps|2 sessions/month|4,210|
+|Insurance|200 Mbps|2/month|4,210|
 |Unlimited|Unlimited|13,660|
-|Insurance|250 Mbps|2 sessions/month|5,000|
+|Insurance|250 Mbps|2/month|5,000|
 |Unlimited|Unlimited|14,720|
-|Insurance|300 Mbps|2 sessions/month|5,570|
+|Insurance|300 Mbps|2/month|5,570|
 |Unlimited|Unlimited|15,770|
 
 **Note:** If you need a higher bandwidth, contact Alibaba Cloud technical support.
@@ -85,7 +85,7 @@ You can evaluate your business traffic by using ECS traffic statistics or other 
 
 For example, you connect all access traffic of your external business to an Anti-DDoS Premium instance to secure your business. Anti-DDoS Premium will reroute the normal access traffic to the origin server when the business is normally accessed and without being attacked. When the business is attacked, Anti-DDoS Premium filters and blocks the malicious traffic, and only reroutes the normal traffic to the origin server. Therefore, the inbound and outbound traffic you view in the ECS console is normal traffic. If your business is deployed on multiple origin servers, you need to calculate the total traffic of all origin servers.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/154907415138045_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/154910093938045_en-US.png)
 
 Assume that you need to connect the businesses of three websites to an Anti-DDoS Premium instance, the normal outbound traffic peak for each business does not exceed 50 Mbps, and the total business traffic does not exceed 150 Mbps. In this case, you only need to ensure that the maximum bandwidth of the purchased instance is greater than 150 Mbps.
 
