@@ -1,42 +1,107 @@
 # Billing method {#concept_86324_zh .concept}
 
-Anti-DDoS Premium offers **Insurance Plan** and **Unlimited Plan** for your choices.
+Anti-DDoS Premium offers **Insurance Plan** and **Unlimited Plan**.
 
-## The advanced mitigation of Anti-DDoS Premium {#section_jdh_prd_ggb .section}
+## Advanced mitigation feature of Anti-DDoS Premium {#section_jdh_prd_ggb .section}
 
-Anti-DDoS Premium aims to defend against every single DDoS attack by integrating all mitigation capacities of global Alibaba Cloud Anti-DDoS scrubbing centers to protect your business.
+Integrating all mitigation capacities of Alibaba Cloud Anti-DDoS scrubbing centers around the world, Anti-DDoS Premium defends against all DDoS attacks to secure your business.
 
-In most cases, the attack risk obviously decreases when you successfully defend against DDoS attacks by using Anti-DDoS services. Generally, malicious attackers launch DDoS attacks to cause losses of your business. If the attackers fail to achieve the purpose, the DDoS attack ends due to the cost of launching attacks. Therefore, the advanced mitigation of Anti-DDoS Premium does not have a limited protection capacity.
+In most cases, the chances of being attacked decrease significantly after you have successfully defended against DDoS attacks using the Anti-DDoS service. Typically, attackers launch DDoS attacks to cause financial losses to your business. Due to the cost of launching attacks, if the attackers fail to achieve this purpose, they will stop launching DDoS attack. Therefore, the advanced mitigation of Anti-DDoS Premium provides unlimited mitigation capacities and can integrate all mitigation capacities of Alibaba Cloud Anti-DDoS scrubbing centers around the world to secure your business.
 
-**Note:** Alibaba Cloud keeps rights of actions when attacks against your business impact the infrastructure of Alibaba Cloud International Anti-DDoS scrubbing centers. Once the actions are triggered on your Anti-DDoS Premium instance, your protected business may be affected. The action includes but not limited to “black hole” of the IP addresses being attacked, or alteration to the routing of the traffic destined to the IP addresses being attacked.
+**Note:** If the attacks against your business impact the infrastructure of Alibaba Cloud Anti-DDoS scrubbing centers, Alibaba Cloud has the right to control the traffic. Once the traffic control is triggered on your Anti-DDoS Premium instance, your protected business may be affected. The traffic control measures include but are not limited to black hole routing and limitations to the access traffic.
 
-## The plans of Anti-DDoS Premium {#section_nk1_y4d_ggb .section}
+## Plans of Anti-DDoS Premium {#section_nk1_y4d_ggb .section}
 
--   Insurance Plan
+-   **Insurance Plan** 
 
-    Anti-DDoS Premium Insurance Plan provides two advanced mitigations \(unlimited full-capacity protection\) for each month. The advanced mitigation is enabled to provide unlimited protection with full capacity within 24 hours for your business after it suffers DDoS attacks, and this consumes one advanced mitigation. The advanced mitigations are reset to two at the beginning of every month during the service period.
+    Each month, Anti-DDoS Premium Insurance Plan offers two free advanced mitigation sessions by default, featuring unlimited mitigation capabilities. This protects your businesses against DDoS attacks with full capacity within 24 hours after an attack has been detected, and consumes one advanced mitigation session. The number of advanced mitigation sessions is reset to two at the beginning of every month during the service period.
 
-    For example, from September 12th 11:20:00, a protected IP suffers DDoS attacks and advanced mitigation is triggered. Within 24 hours, Anti-DDoS Premium provides unlimited protection with full capacity for the IP. Then, from September 13th 18:50:00, the protected IP suffers DDoS attacks and advanced mitigation is triggered again. 24 hours later, the unlimited protection with full capacity stops and the two advanced mitigation opportunities of the Anti-DDoS Premium Insurance instance in September exhausts. The advanced mitigation opportunities are automatically reset to two at the beginning of next month, October 1st.
+    **Note:** To purchase more advanced mitigation sessions, see [Global advanced mitigation](reseller.en-US/Anti-DDoS Premium Service/Pricing/Global advanced DDoS mitigation sessions.md#).
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/154693592235184_en-US.png)
+    For example, a protected IP suffers DDoS attacks at 11:20:00 \(UTC+8\), September 12, and an advanced mitigation is triggered. Within 24 hours, Anti-DDoS Premium provides unlimited mitigation capacities for this IP. The protected IP suffers another DDoS attack at 18:50:00 \(UTC+8\), September 13, and an advanced mitigation is triggered again. 24 hours later, the advanced mitigation stops and the two advanced mitigation sessions of the Anti-DDoS Premium Insurance Plan instance in September are exhausted. The advanced mitigation sessions are automatically reset to two at the beginning of the following month, October 1.
 
-    This plan is an entry-level solution of Anti-DDoS Premium and applies to users who have relatively low attack risk.
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/154907415135184_en-US.png)
 
-    **Note:** Only when the DDoS attack against your business exceeds a specific threshold \(basic protection threshold\), the advanced mitigation of Anti-DDoS Premium is enabled.
+    Insurance Plan is a basic solution of Anti-DDoS Premium and applies to users who are less vulnerable to attacks.
 
--   Unlimited Plan
+    **Note:** Only when the DDoS attack against your business exceeds a specific threshold, namely the basic mitigation threshold, will the advanced mitigation of Anti-DDoS Premium be enabled.
 
-    Anti-DDoS Premium Unlimited Plan provides unlimited advanced mitigations \(unlimited full-capacity protection\). Purchasing the unlimited plan, no matter what attack frequency, Anti-DDoS Premium prevents your business from DDoS attacks.
+-   **Unlimited Plan** 
+
+    Anti-DDoS Premium Unlimited Plan provides unlimited advanced mitigation capabilities for your business. After you purchase the Unlimited Plan instances, Anti-DDoS Premium provides unlimited mitigation sessions to protect your business against all DDoS attacks.
 
 
-## Pricing { .section}
+## Pricing details of Anti-DDoS Premium { .section}
 
-Anti-DDoS Premium uses the prepay billing method. It contains the following billing items:
+The pricing details of Anti-DDoS Premium instances are shown in the following table.
 
--   Clean business bandwidth \(under no attack situation\)
--   Clean business QPS \(under no attack situation\)
--   The number of ports to be protected
--   The number of domains to be protected
+|Plan|Business bandwidth|Advanced mitigation|Price \(USD/month\)|
+|----|------------------|-------------------|-------------------|
+|Insurance|100 Mbps|2 sessions/month|2,630|
+|Unlimited|Unlimited|11,560|
+|Insurance|150 Mbps|2 sessions/month|3,420|
+|Unlimited|Unlimited|12,610|
+|Insurance|200 Mbps|2 sessions/month|4,210|
+|Unlimited|Unlimited|13,660|
+|Insurance|250 Mbps|2 sessions/month|5,000|
+|Unlimited|Unlimited|14,720|
+|Insurance|300 Mbps|2 sessions/month|5,570|
+|Unlimited|Unlimited|15,770|
 
-The following table shows the pricing of Anti-DDoS Premium.
+**Note:** If you need a higher bandwidth, contact Alibaba Cloud technical support.
+
+**Note:** Business bandwidth refers to the maximum normal business bandwidth that can be processed by Anti-DDoS Premium instances when your business is not under attack. Make sure that the business bandwidth of the instance is greater than the peak value of the inbound or outbound traffic of all services connected to the Anti-DDoS Premium instances. For more information about the business bandwidth, see [How to select a business bandwidth specification](#section_rkf_vqf_4gb).
+
+If the actual traffic volume exceeds the maximum business bandwidth, your business may be subject to traffic restrictions or random packet losses, and your normal business may be unavailable, slowed, or delayed for a certain period of time.
+
+Anti-DDoS Premium instances provide the following business specifications by default:
+
+**Note:** If you need to expand the default business specifications based on actual needs, you can upgrade the instance or expand the corresponding specifications when purchasing the instance.
+
+|Business specifications|Descriptions|Default values|Price \(USD/month\)|
+|-----------------------|------------|--------------|-------------------|
+|Number of protected ports|The number of TCP/UDP ports that can be protected by the instance.|5|Every 5 ports: 150 USD/month|
+|Number of protected domain names|The number of HTTP/HTTPS domain names that can be protected by the instance.|10**Note:** Contains only one top-level domain and the subdomains or wildcard domains of this top-level domain.
+
+|Every 10 domain names: 150 USD/month**Note:** Every 10 protected domain names contain only one top-level domain and the subdomains or wildcard domains of this top-level domain.
+
+|
+|Clean QPS|The maximum concurrent HTTP/HTTPS requests per second supported when the system is not under attack.| -   Insurance Plan: 500 QPS
+-   Unlimited Plan: 1,000 QPS
+
+ |Every 100 QPS: 150 USD/month|
+
+## More information {#section_rkf_vqf_4gb .section}
+
+**How to select a business bandwidth specification**
+
+You can select an appropriate bandwidth specification based on the daily inbound and outbound traffic peaks of all businesses that have or will be connected to the Anti-DDoS Premium instance. Make sure that the maximum business bandwidth of the instance is greater than the peak value of the inbound and outbound traffic of all businesses.
+
+**Note:** Typically, the outbound traffic is greater than the inbound traffic.
+
+You can evaluate your business traffic by using ECS traffic statistics or other monitoring tools on your origin server.
+
+**Note:** The traffic here indicates the normal business traffic.
+
+For example, you connect all access traffic of your external business to an Anti-DDoS Premium instance to secure your business. Anti-DDoS Premium will reroute the normal access traffic to the origin server when the business is normally accessed and without being attacked. When the business is attacked, Anti-DDoS Premium filters and blocks the malicious traffic, and only reroutes the normal traffic to the origin server. Therefore, the inbound and outbound traffic you view in the ECS console is normal traffic. If your business is deployed on multiple origin servers, you need to calculate the total traffic of all origin servers.
+
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/154907415138045_en-US.png)
+
+Assume that you need to connect the businesses of three websites to an Anti-DDoS Premium instance, the normal outbound traffic peak for each business does not exceed 50 Mbps, and the total business traffic does not exceed 150 Mbps. In this case, you only need to ensure that the maximum bandwidth of the purchased instance is greater than 150 Mbps.
+
+**Domain name specifications**
+
+Anti-DDoS Premium instances support adding 10 domain names for protection by default, including one top-level domain and the subdomains or wildcard domains of the top-level domain.
+
+Taking `abc.com` for example, you can add the top-level domain itself and a maximum of nine subdomains, such as `www.abc.com`, `\*.abc.com`, `mail.abc.com`, `user.pay.abc.com`, and `x.y.z.abc.com`. Each domain name that you have added, including the top-level domain `abc.com` counts in the quota for protected domain names.
+
+If you want to add two different top-level domains or their subdomains to connect to the Anti-DDoS Premium instance, you need to expand the quota for protected domain names. Assume that you have added `abc.com` or its subdomain for protection, when you try to add `xyz.com` \(another top-level domain\) or its subdomain, you will receive the following message:
+
+```
+The quota of top-level domains has been exceeded. Upgrade the instance to expand the quota for protected domain names.
+```
+
+In this case, you need to upgrade the Anti-DDoS Premium instance to expand the quota for domain name mitigation.
+
+**Note:** Adding 10 protected domain names each time allows you to have one more top-level domain in the quota for domain name mitigation. For example, you must set the number of protected domain names to 20 to protect the two top-level domains,`abc.com` and `xyz.com` in an Anti-DDoS Premium instance.
 
