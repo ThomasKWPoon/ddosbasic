@@ -4,11 +4,11 @@ After purchasing an Anti-DDoS Premium instance, you can add your website domain 
 
 **Note:** If you want to add a non-website business, such as client game, mobile game or APP to Anti-DDoS Premium, see [Add non-website business to Anti-DDoS Premium for protection](reseller.en-US/Anti-DDoS Premium Service/Quick Start/Add a non-website business to Anti-DDoS Premium for protection.md#).
 
-1.  Log on to the [Anti-DDoS Premium Service console](https://yundun.console.aliyun.com/?p=ddosdip). 
+1.  Log on to the [Anti-DDoS Premium Service console](https://partners-intl.console.aliyun.com/#/ddosdip). 
 2.  Go to **Provisioning** \> **Website** page, and click **Add Website.**  
 3.  On the Website configuration page, enter information for the website to be protected, and then click **Add Website**. 
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/154693655035231_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/155005764035231_en-US.png)
 
     |Parameter|Description|Note|
     |---------|-----------|----|
@@ -34,18 +34,18 @@ After purchasing an Anti-DDoS Premium instance, you can add your website domain 
 
     **Note:** Click **Return to website list**, if you want to test the forwarding rule of the Anti-DDoS Premium instance before switching business traffic to the Dedicated IP of Anti-DDoS Premium. After you verify that the forwarding rule works as expected, change the DNS record to switch business traffic to Anti-DDoS Premium.
 
-    1.  Log on to the [Anti-DDoS Premium Service console](https://yundun.console.aliyun.com/?p=ddosdip), go to the **Instance List** page, locate the Anti-DDoS Premium instance that protects the website, and record the Dedicated IP of the instance. 
+    1.  Log on to the [Anti-DDoS Premium Service console](https://partners-intl.console.aliyun.com/#/ddosdip), go to the **Instance List** page, locate the Anti-DDoS Premium instance that protects the website, and record the Dedicated IP of the instance. 
     2.  Go to the DNS service provider of your website, and change the A record to point to the Dedicated IP. 
 
         The settings pages of the different DNS service providers are different. The following pictures are for reference only.
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/154693655035255_en-US.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/155005764035255_en-US.png)
 
     3.  After the DNS configuration is effective, all traffic to the website goes through the Anti-DDoS Premium instance for DDoS protection. 
 
         **Note:** Generally, the DNS configuration takes about 10 minutes to be effective. We recommend that you change the DNS configurations during the low peak period.
 
-5.  Configure origin server protection. 
+5.  Configure [origin server protection](../../../../../reseller.en-US/Anti-DDoS Pro Service/Best Practice/Protect origin sites that use Anti-DDoS Pro.md#). 
 
     **Note:** The origin server protection can prevent your origin server against light-traffic HTTP flood and web attacks, but cannot defend against heavy traffic DDoS attacks. In addition, it does not prevent DDoS attacks directly targeting the origin server through traffic that bypasses Anti-DDoS Premium, which may even throw the origin IP address into the blackhole routing status.
 
