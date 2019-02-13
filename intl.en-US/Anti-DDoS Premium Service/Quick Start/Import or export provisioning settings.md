@@ -11,11 +11,11 @@ If you have multiple provisioning settings of website domain or layer-4 forwardi
 
 ## Bulk import website domain name Configuration {#section_jr5_5tk_ggb .section}
 
-1.  Log on to the [Anti-DDoS Premium Service console](https://yundunnext.console.aliyun.com/?p=ddosdip).
+1.  Log on to the [Anti-DDoS Premium Service console](https://partners-intl.console.aliyun.com/#/ddosdip).
 2.  Go to **Provisioning** \> **Website**, click **Import** at the bottom of the domain setting list to add provisioning settings for multiple domains.
 3.  In the Add Multiple Rules dialog box, enter the domain setting parameters in the specified XML format.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79673/154693636735279_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79673/155005726535279_en-US.png)
 
     **Note:** You can copy and paste the content in the text box.
 
@@ -101,7 +101,7 @@ In the `<ServerList>1.2.3.4</ServerList>` tags, specify the origin site address.
 3.  Click the Task List icon in the upper right corner of the Provisioning page, to view the progress of the export task.
 4.  After the task completes, click **Download** in the Task List dialog box, to download the domain provisioning settings to your local computer.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79673/154693636735284_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79673/155005726535284_en-US.png)
 
     **Note:** If the status of the tasks is **Preparing**, please be patient and wait for the export task to complete.
 
@@ -113,7 +113,7 @@ In the `<ServerList>1.2.3.4</ServerList>` tags, specify the origin site address.
 
     **Note:** You can also select **Session Persistence/Health-Check** or **DDoS Mitigation Policies** to import corresponding settings.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79673/154693636735288_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79673/155005726535288_en-US.png)
 
 3.  Refer to the samples to enter information about the settings.
     -   Forwarding rules
@@ -155,11 +155,11 @@ In the `<ServerList>1.2.3.4</ServerList>` tags, specify the origin site address.
 
     **Note:** You can also select **Session Persistence/Health-Check** or **DDoS Mitigation Policies** to export corresponding settings.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79673/154693636735303_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79673/155005726535303_en-US.png)
 
 3.  In the prompt box, click **OK**, to start an export task for current forwarding rules.
 4.  Click the Task List icon in the upper right corner of the **Provisioning** page, to view the progress of the export task.
-5.  After the task completes, click **Download** in the Task List dialog box, to download the domain provisioning settings to your local computer.
+5.  After the task completes, click **Download** in the Task List dialog box, to download the forwarding rule settings to your local computer.
 
     **Note:** If the status of the tasks is **Preparing**, please be patient and wait for the export task to complete.
 
