@@ -38,7 +38,7 @@ Anti-DDoS Premium MCA instances provide the following business specifications by
 |Business specifications|Descriptions|Default values|
 |-----------------------|------------|--------------|
 |Number of protected ports|The number of TCP/UDP ports that can be protected by the instance.|The default number is 5. The number of ports must be the same as that of ports to be protected of the Anti-DDoS Premium Insurance Plan instances or the Unlimited Plan instances.|
-|Number of protected domain names|The number of HTTP/HTTPS domain names that can be protected by the instance.|The default number is 10. The number of protected domain names must be the same as that of ports to be protected of the Anti-DDoS Premium Insurance Plan instances or the Unlimited Plan instances.**Note:** Every 10 protected domain names contain only one top-level domain and the subdomains or wildcard domains of this top-level domain.
+|Number of protected domains|The number of HTTP/HTTPS domains that can be protected by the instance.|The default number is 10. The number of protected domains must be the same as that of domains to be protected of the Anti-DDoS Premium Insurance Plan instances or the Unlimited Plan instances.**Note:** Every 10 protected domain names contain only one top-level domain and the subdomains or wildcard domains of this top-level domain.
 
 |
 |Business QPS|The maximum concurrent HTTP/HTTPS requests per second supported when the system is not under attack.|500 QPS|
