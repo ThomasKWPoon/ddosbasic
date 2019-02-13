@@ -14,13 +14,13 @@ In most cases, the chances of being attacked decrease significantly after you ha
 
 -   **Insurance Plan** 
 
-    Each month, Anti-DDoS Premium Insurance Plan offers two free advanced mitigation by default, featuring unlimited mitigation capabilities. This protects your businesses against DDoS attacks with full capacity within 24 hours after an attack has been detected, and consumes one advanced mitigation. The number of advanced mitigation is reset to two at the beginning of every month during the service period.
+    Each month, Anti-DDoS Premium Insurance Plan offers two free advanced mitigations by default, featuring unlimited mitigation capabilities. This protects your businesses against DDoS attacks with full capacity within 24 hours after an attack has been detected, and consumes one advanced mitigation. The number of advanced mitigations is reset to two at the beginning of every month during the service period.
 
-    **Note:** To purchase more advanced mitigation, see [Global advanced mitigation](reseller.en-US/Anti-DDoS Premium Service/Pricing/Global advanced mitigation.md#).
+    **Note:** To purchase more advanced mitigations, see [Global advanced mitigation](reseller.en-US/Anti-DDoS Premium Service/Pricing/Global advanced DDoS mitigation.md#).
 
-    For example, a protected IP suffers DDoS attacks at 11:20:00 \(UTC+8\), September 12, and an advanced mitigation is triggered. Within 24 hours, Anti-DDoS Premium provides unlimited mitigation capacities for this IP. The protected IP suffers another DDoS attack at 18:50:00 \(UTC+8\), September 13, and an advanced mitigation is triggered again. 24 hours later, the advanced mitigation stops and the two advanced mitigation of the Anti-DDoS Premium Insurance Plan instance in September are exhausted. The advanced mitigation are automatically reset to two at the beginning of the following month, October 1.
+    For example, a protected IP suffers DDoS attacks at 11:20:00 \(UTC+8\), September 12, and an advanced mitigation is triggered. Within 24 hours, Anti-DDoS Premium provides unlimited mitigation capacities for this IP. The protected IP suffers another DDoS attack at 18:50:00 \(UTC+8\), September 13, and an advanced mitigation is triggered again. 24 hours later, the advanced mitigation stops and the two advanced mitigation of the Anti-DDoS Premium Insurance Plan instance in September are exhausted. The number of advanced mitigations is automatically reset to two at the beginning of the following month, October 1.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/154910093935184_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/155006037835184_en-US.png)
 
     Insurance Plan is a basic solution of Anti-DDoS Premium and applies to users who are less vulnerable to attacks.
 
@@ -48,11 +48,11 @@ The pricing details of Anti-DDoS Premium instances are shown in the following ta
 |Insurance|300 Mbps|2/month|5,570|
 |Unlimited|Unlimited|15,770|
 
-**Note:** If you need a higher bandwidth, contact Alibaba Cloud technical support.
+**Note:** If you need a higher Clean bandwidth, contact Alibaba Cloud technical support.
 
-**Note:** Business bandwidth refers to the maximum normal business bandwidth that can be processed by Anti-DDoS Premium instances when your business is not under attack. Make sure that the business bandwidth of the instance is greater than the peak value of the inbound or outbound traffic of all services connected to the Anti-DDoS Premium instances. For more information about the business bandwidth, see [How to select a business bandwidth specification](#section_rkf_vqf_4gb).
+**Note:** Clean bandwidth refers to the maximum normal clean bandwidth that can be processed by Anti-DDoS Premium instances when your business is not under attack. Make sure that the Clean bandwidth of the instance is greater than the peak value of the inbound or outbound traffic of all services connected to the Anti-DDoS Premium instances. For more information about the Clean bandwidth, see [How to select a Clean bandwidth specification](#section_rkf_vqf_4gb).
 
-If the actual traffic volume exceeds the maximum business bandwidth, your business may be subject to traffic restrictions or random packet losses, and your normal business may be unavailable, slowed, or delayed for a certain period of time.
+If the actual traffic volume exceeds the maximum Clean bandwidth, your business may be subject to traffic restrictions or random packet losses, and your normal business may be unavailable, slowed, or delayed for a certain period of time.
 
 Anti-DDoS Premium instances provide the following business specifications by default:
 
@@ -73,9 +73,9 @@ Anti-DDoS Premium instances provide the following business specifications by def
 
 ## More information {#section_rkf_vqf_4gb .section}
 
-**How to select a business bandwidth specification**
+**How to select a Clean bandwidth specification**
 
-You can select an appropriate bandwidth specification based on the daily inbound and outbound traffic peaks of all businesses that have or will be connected to the Anti-DDoS Premium instance. Make sure that the maximum business bandwidth of the instance is greater than the peak value of the inbound and outbound traffic of all businesses.
+You can select an appropriate Clean bandwidth specification based on the daily inbound and outbound traffic peaks of all businesses that have or will be connected to the Anti-DDoS Premium instance. Make sure that the Clean bandwidth of the instance is greater than the peak value of the inbound and outbound traffic of all businesses.
 
 **Note:** Typically, the outbound traffic is greater than the inbound traffic.
 
@@ -85,7 +85,7 @@ You can evaluate your business traffic by using ECS traffic statistics or other 
 
 For example, you connect all access traffic of your external business to an Anti-DDoS Premium instance to secure your business. Anti-DDoS Premium will reroute the normal access traffic to the origin server when the business is normally accessed and without being attacked. When the business is attacked, Anti-DDoS Premium filters and blocks the malicious traffic, and only reroutes the normal traffic to the origin server. Therefore, the inbound and outbound traffic you view in the ECS console is normal traffic. If your business is deployed on multiple origin servers, you need to calculate the total traffic of all origin servers.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/154910093938045_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/155006037838045_en-US.png)
 
 Assume that you need to connect the businesses of three websites to an Anti-DDoS Premium instance, the normal outbound traffic peak for each business does not exceed 50 Mbps, and the total business traffic does not exceed 150 Mbps. In this case, you only need to ensure that the maximum bandwidth of the purchased instance is greater than 150 Mbps.
 
@@ -93,7 +93,7 @@ Assume that you need to connect the businesses of three websites to an Anti-DDoS
 
 Anti-DDoS Premium instances support adding 10 domain names for protection by default, including one top-level domain and the subdomains or wildcard domains of the top-level domain.
 
-Taking `abc.com` for example, you can add the top-level domain itself and a maximum of nine subdomains, such as `www.abc.com`, `\*.abc.com`, `mail.abc.com`, `user.pay.abc.com`, and `x.y.z.abc.com`. Each domain name that you have added, including the top-level domain `abc.com` counts in the quota for protected domain names.
+Taking `abc.com` for example, you can add the top-level domain itself and a maximum of nine subdomains, such as `www.abc.com`, `*.abc.com`, `mail.abc.com`, `user.pay.abc.com`, and `x.y.z.abc.com`. Each domain name that you have added, including the top-level domain `abc.com` counts in the quota for protected domain names.
 
 If you want to add two different top-level domains or their subdomains to connect to the Anti-DDoS Premium instance, you need to expand the quota for protected domain names. Assume that you have added `abc.com` or its subdomain for protection, when you try to add `xyz.com` \(another top-level domain\) or its subdomain, you will receive the following message:
 
