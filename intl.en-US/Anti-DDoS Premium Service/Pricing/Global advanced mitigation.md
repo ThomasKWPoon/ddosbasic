@@ -27,11 +27,11 @@ You do not need to bind the global advanced mitigation to a specific instance. Y
 After you purchase an Anti-DDoS Premium instance, you can purchase additional global advanced mitigations in the Anti-DDoS Premium console at any time.
 
 1.  Log on to the [Anti-DDoS Premium console](https://yundunnext.console.aliyun.com/?p=ddosdip#/anycast/asset).
-2.  On the **Instance List** page, click**Purchase**.
+2.  On the **Instance List** page, click **Purchase**.
 
     ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/119523/155006071438215_en-US.png)
 
-3.  On the Global Advanced Mitigation purchase page, select the quantity, and click**Buy Now**.
+3.  On the Global Advanced Mitigation purchase page, select the quantity, and click **Buy Now**.
 
     **Note:** Make sure that the Product is selected as **Anti-DDoS Premium**.
 
@@ -44,7 +44,7 @@ After you purchase an Anti-DDoS Premium instance, you can purchase additional gl
 |Duration|3 Years|
 |Unit price|1,580 USD|
 
-**Note:** Refund is not supported for the global advanced mitigation.
+**Note:** No refund for the global advanced mitigation.
 
 ## More information {#section_aht_bz5_qgb .section}
 
